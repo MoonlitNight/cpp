@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     ifstream in;
-    cout << "请输入文件路径" << endl;
+    cout << "please enter file path:" << endl;
     char path[100];
     cin >> path;
     in.open(path);
